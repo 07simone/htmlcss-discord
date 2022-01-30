@@ -201,6 +201,12 @@
     .titolo{
         text-align: center;
     }
+    section.contenitore-sez-5 header p{
+        line-height:30px ;
+    }
+    .star{
+        margin-bottom: 20px;
+    }
     
     .Footer-nav{
         margin-top: 5rem;
