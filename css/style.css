@@ -8,6 +8,9 @@
         display: table;
         clear: both;
     }
+    body{
+        font-family: "whitney", sans-serif;
+    }
     
     header{
         width: 100%;
@@ -23,6 +26,9 @@
     
     .float-left{
      float: left;
+    }
+    .float-right{
+        float: right;
     }
      
     img{
@@ -41,9 +47,10 @@
     }
     
     button{
-        border-radius: 25px;
+        border-radius: 30px;
         padding: 10px;
         margin-right: 15px;
+        font-size: 1em;
     }
     
     a{
@@ -85,9 +92,11 @@
 
     .titolo{
         margin-bottom: 10%;
+        font-size: 3em;
     }
     .descrizione{
-        margin-bottom: 15%;
+        margin-bottom: 5%;
+        font-size: 1.5em;
     }
    
     
@@ -177,21 +186,88 @@
     
     .principale5{
         width: 100%;
-        height: 85vh;
-        background-color: brown;
+        height: 100vh;
+        
     }
 
     .contenitore-sez-5{
+        text-align: center;
         width: 90%;
         height: inherit;
         max-width: 1180px;  
         margin: 0 auto;
-        background-color: chocolate;
+       
     }
     .titolo{
         text-align: center;
     }
     
+    .Footer-nav{
+        margin-top: 5rem;
+        padding: 80px 0;
+        width: 100%;
+        height: 62vh;
+        background-color:#23272a ; 
+    }
+    .text-light-blu{
+        color: #8ea1e1;
+    }
+    section#footer-top h4{
+        font-size: 1.6rem;
+    }
+    section#footer-top h5{
+        font-size: 1em;
+        margin: 0%;
+        line-height: 1.5rem;
+    }
+    section#footer-top nav ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    section#footer-top nav ul li a:hover,
+    section#footer-top nav ul li a:active{
+          text-decoration: underline;
+    }
+    section#footer-top nav ul li {
+        list-style-type: none;
+        line-height: 1.5rem;
+        font-size: .8rem;
+    }
+    section#footer-top .main-col{
+        width: 25%;
+        margin-left: 5rem;
+    }
+    section#footer-top .small-footer-col{
+        width: calc(70% / 4);
+    }
+    #language img{
+        height: 1rem;
+        vertical-align: middle;
+
+    }
+    #social{
+        margin-top: 1rem;
+    }
+    #social a{
+        margin-right: 1rem;
+    }
+    section#footer-top a{
+        color: white;
+        text-decoration: none;
+
+    }
+    section#footer-top{
+        border-bottom:#8ea1e1 1px solid;
+        padding-bottom: 1rem;
+        
+    }
+    section#footer-bottom{
+        padding-top: 5%;
+    }
+    .Sign-in{
+        background-color: rgb(141, 173, 231);
+        color: white;
+    }
     
     
     
